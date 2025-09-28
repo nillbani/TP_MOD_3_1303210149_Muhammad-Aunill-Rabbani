@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Pribadi</title>
+  
+</head>
+<body>
+
+    <!-- Tag <div> digunakan untuk membagi bagian konten agar lebih terstruktur -->
+    <div class="section">
+        <!-- sebagai judul utama -->
+        <h1>Profil Pribadi</h1>
+
+        <!-- Tag <img> untuk menampilkan foto -->
+        <h3>Foto Profil</h3>
+        <img src="Profile-PNG-Photo.png" alt="Foto Profil" width="200">
+    </div>
+
+    <div class="section">
+        <h3>Video Perkenalan</h3>
+        <!-- Tag <video> untuk menampilkan vidio -->
+        <video width="400" controls>
+            <source src="video-perkenalan.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="section">
+        <h2>Tentang Saya</h2>
+        <p>
+            Halo! Saya adalah seorang pengembang web antusias dengan passion di bidang teknologi dan desain kreatif.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Keterampilan</h2>
+        <!-- Tag <table> untuk membuat tabel -->
+        <!-- <tr> untuk baris, <th> untuk header tabel, <td> untuk isi tabel -->
+        <table>
+            <tr>
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Mahir</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Menengah</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Hubungi Saya</h2>
+        <!-- Tag <form> digunakan untuk mengirim input pengguna -->
+        <form action="#" method="post">
+
+            <!-- Tag <label> + <input> untuk input teks -->
+            <label for="nama">Nama:</label><br>
+            <!-- Tag <input> untuk input satu baris -->
+            <input type="text" id="nama" name="nama"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <!-- Tag <textarea> untuk teks area -->
+            <label for="pesan">Pesan:</label><br>
+            <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+
+            <!-- Tag <button> untuk tombol submit form -->
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </div>
+
+    <!-- Tag <a> untuk hyperlink -->
+    <div class="section">
+        <h3>Media Sosial:</h3>
+        <a href="https://github.com" target="_blank">GitHub</a> 
+    </div>
+
+</body>
+</html>
